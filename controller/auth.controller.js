@@ -162,7 +162,8 @@ const password = req.body.password
           data: null,
         });
       }
-    } catch (error) {
+    } catch
+     (error) {
       console.error(error); 
       return res.status(500).json({
         success: false,
